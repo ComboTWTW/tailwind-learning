@@ -60,9 +60,69 @@ function App() {
               </p>
             </div>
             {/* Numbered List */}
-            <div className="container flex flex-col space-y-8 md:max-w-1/2">
+            <div className="flex flex-col space-y-8 md:w-1/2">
               {/* List item 1 */}
-              
+              <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                {/* Header */}
+                <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                  <div className="flex items-center space-x-2">
+                    <div className="px-4 py-2 text-white rounded-full font-bold bg-brightRed md:py-1">
+                      01
+                    </div>
+                    <h3 className="text-base font-bold md:mb-4 md:hidden">Track company-wide progress</h3>
+                  </div>
+                </div>
+                <div className="">
+                  <h3 className="hidden mb-4 font-bold text-lg md:block">Track company-wide progress</h3>
+                  <p className="text-darkGrayishBlue font-semibold">
+                  See how your day-to-day tasks fit into the wider vision. Go from
+                  tracking progress at the milestone level all the way down to the
+                  smallest of details. Never lose sight of the bigger picture
+                  again.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                {/* Header */}
+                <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                  <div className="flex items-center space-x-2">
+                    <div className="px-4 py-2 text-white rounded-full font-bold bg-brightRed md:py-1">
+                      02
+                    </div>
+                    <h3 className="text-base font-bold md:mb-4 md:hidden">Advanced built-in reports</h3>
+                  </div>
+                </div>
+                <div className="">
+                  <h3 className="hidden mb-4 font-bold text-lg md:block">Advanced built-in reports</h3>
+                  <p className="text-darkGrayishBlue font-semibold">
+                  Set internal delivery estimates and track progress toward
+                  company goals. Our customisable dashboard helps you build out
+                  the reports you need to keep key stakeholders informed.
+                  again.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                {/* Header */}
+                <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                  <div className="flex items-center space-x-2">
+                    <div className="px-4 py-2 text-white rounded-full font-bold bg-brightRed md:py-1">
+                      03
+                    </div>
+                    <h3 className="text-base font-bold md:mb-4 md:hidden">Everything you need in one place</h3>
+                  </div>
+                </div>
+                <div className="">
+                  <h3 className="hidden mb-4 font-bold text-lg md:block">Everything you need in one place</h3>
+                  <p className="text-darkGrayishBlue font-semibold">
+                  Stop jumping from one service to another to communicate, store
+                  files, track tasks and share documents. Manage offers an
+                  all-in-one team productivity solution.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
