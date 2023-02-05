@@ -1,6 +1,7 @@
 import React from 'react'
 import Features from './components/features'
 import Navbars from "./components/Navbars"
+import Intro from './assets/illustration-intro.svg'
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
             </div>
             {/* Image Item */}
             <div className="md:w-1/2">
-              <img src="/assets/illustration-intro.svg" alt="Intro" />
+              <img src={Intro} alt="Intro" />
             </div>
           </div>
         </section>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { navbarLinks } from "../constants/index";
+import Logo from '../assets/logo.svg'
 
 function Navbars() {
   return (
@@ -8,7 +9,7 @@ function Navbars() {
 
             {/* Logo */}
             <div className="pt-2">
-              <a href="/"><img src="./assets/logo.svg" alt="Logo" /></a>
+              <a href="/"><img src={Logo} alt="Logo" /></a>
             </div>
 
 
