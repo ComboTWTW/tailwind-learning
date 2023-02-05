@@ -8,7 +8,7 @@ function Navbars() {
 
             {/* Logo */}
             <div className="pt-2">
-              <a href="/"><img src="../img/logo.svg" alt="Logo" /></a>
+              <a href="/"><img src="./assets/logo.svg" alt="Logo" /></a>
             </div>
 
 

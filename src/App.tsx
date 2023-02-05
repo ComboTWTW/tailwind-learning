@@ -27,7 +27,7 @@ function App() {
             </div>
             {/* Image Item */}
             <div className="md:w-1/2">
-              <img src="../img/illustration-intro.svg" alt="Intro" />
+              <img src="/assets/illustration-intro.svg" alt="Intro" />
             </div>
           </div>
         </section>
