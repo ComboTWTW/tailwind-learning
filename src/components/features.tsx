@@ -31,7 +31,7 @@ function Features() {
                 </div>
                 <div className="">
                   <h3 className="hidden mb-4 font-bold text-lg md:block">Everything you need in one place</h3>
-                  <p className="text-darkGrayishBlue font-semibold">{item.text}
+                  <p className="text-darkGrayishBlue font-medium">{item.text}
                   </p>
                 </div>
               </div>)

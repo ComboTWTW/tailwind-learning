@@ -15,11 +15,9 @@ function Navbars() {
 
              {/* Navbar Menu */}
             <div className="hidden md:flex space-x-6">
-            {
-                navbarLinks.map((link) => {
-                    return <a href="" className="font-semibold hover:text-darkGrayishBlue" >{link.title}</a>
-                })
-            }
+            {navbarLinks.map((link) => (
+              <a href="" className="font-semibold hover:text-darkGrayishBlue" >{link.title}</a>
+            ))}
             </div>
             
             {/* Red button */}

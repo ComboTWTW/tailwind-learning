@@ -2,6 +2,7 @@ import React from 'react'
 import Features from './components/features'
 import Navbars from "./components/Navbars"
 import Intro from './assets/illustration-intro.svg'
+import Testimonials from './components/Testimonials'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         {/* Fetures Section */}
         <Features />
 
+        <Testimonials />
     </div>
   )
 }
