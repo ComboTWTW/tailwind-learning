@@ -1,8 +1,8 @@
-import React from 'react'
-import Features from './components/features'
-import Navbars from "./components/Navbars"
-import Intro from './assets/illustration-intro.svg'
-import Testimonials from './components/Testimonials'
+import Features from './components/Features';
+import Navbars from "./components/Navbars";
+import Intro from './assets/illustration-intro.svg';
+import Testimonials from './components/testimonials';
+import GetStartedBotton from './components/getStartedBotton'
 
 
 function App() {
@@ -37,6 +37,15 @@ function App() {
         <Features />
 
         <Testimonials />
+        {/* GetStartedBotton */}
+        <div className="bg-brightRed">
+          <div className="mt-14 py-24 px-6 flex-col  bg-brightRed container md:px-6 md:py-12 mx-auto flex md:flex-row justify-between">
+              <h4 className='text-5xl md:text-4xl text-center md:text-left max-w-xl text-white font-bold'>Simplify how your team works today</h4>
+              <div className='flex mt-12 md:mt-0 px-6 self-center pt-2 p-3 bg-white text-brightRed rounded-full baseline font-medium text-center  hover:bg-brightRedLight'>
+                <a href="" className="">Get Started</a>
+              </div>
+          </div>
+        </div>
     </div>
   )
 }

@@ -1,9 +1,8 @@
-import React from 'react'
 
-function getStartedBotton() {
-  return (
-    <div>getStartedBotton</div>
-  )
-}
+const GetStartedBotton = () => (
+  <div className="mt-10 mx-auto flex flex-row justify-center">
+    sasdadsds
+  </div>
+)
 
-export default getStartedBotton
+export default GetStartedBotton;

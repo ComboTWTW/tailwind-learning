@@ -6,7 +6,7 @@ const Testimonials = () => (
         What's different About Manage?
     </h2>
 
-    <div className="flex flex-col  space-y-16 mt-10 md:flex-row">
+    <div className="flex flex-col space-x-6 space-y-16 mt-10 md:flex-row">
       {TestCard.map((card) => (
         <div className="flex flex-col mt-16 items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
           <img className="-mt-14 h-[64px] w-[64px]" src={card.avatar} alt="" />
