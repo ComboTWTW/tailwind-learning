@@ -79,7 +79,7 @@ function App() {
               </div>
             </div>
             {/* Second Element */}
-            <div className="columns-2 flex flex-row sm:gap-16 ">
+            <div className="columns-2 flex flex-row gap-32 lg:gap-16 ">
                   <ul className="flex flex-col space-y-3 items-center lg:items-start">
                     {footerCol.slice(0, 4).map((item) => (
                       <a href=""><li className="text-white hover:text-brightRed">{item.text}</li></a>
