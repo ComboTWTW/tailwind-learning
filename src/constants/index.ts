@@ -1,6 +1,12 @@
 import  anisha  from '../assets/avatar-anisha.png'
 import  ali  from '../assets/avatar-ali.png'
 import  richard  from '../assets/avatar-richard.png'
+import  facebook  from '../assets/icon-facebook.svg'
+import  youtube  from '../assets/icon-youtube.svg'
+import  twitter  from '../assets/icon-twitter.svg'
+import  printerest  from '../assets/icon-pinterest.svg'
+import  instagram  from '../assets/icon-instagram.svg'
+import  logo  from '../assets/logo-white.svg'
 
 export const navbarLinks = [
     {
@@ -59,4 +65,38 @@ export const TestCard = [
         name: "Richard Watts",
         text: "“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”",
     },
+]
+
+export const footerLinks = [
+    {
+        id: "facebook",
+        pictute: facebook,
+    },
+    {
+        id: "youtube",
+        pictute: youtube,
+    },
+    {
+        id: "twitter",
+        pictute: twitter,
+    },
+    {
+        id: "printerest",
+        pictute: printerest,
+    },
+    {
+        id: "instagram",
+        pictute: instagram,
+    },
+]
+
+
+export const footerCol = [
+    {text: "Home"},
+    {text: "Pricing"},
+    {text: "Products"},
+    {text: "About"},
+    {text: "Careers"},
+    {text: "Community"},
+    {text: "Privacy Policy"},
 ]
