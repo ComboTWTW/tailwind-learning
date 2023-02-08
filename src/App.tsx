@@ -2,7 +2,6 @@ import Features from "./components/features";
 import Navbars from "./components/Navbars";
 import Intro from './assets/illustration-intro.svg';
 import Logo from './assets/logo-white.svg';
-import Testimonials from "./components/Testimonials";
 import {footerLinks} from './constants/index'
 import {footerCol} from './constants/index'
 import { TestCard } from "./constants/index";
