@@ -84,7 +84,7 @@ function App() {
                       <a href=""><li className="text-white hover:text-brightRed">{item.text}</li></a>
                     ))}
                   </ul>
-                  <ul className="flex flex-col text-center space-y-3">
+                  <ul className="flex flex-col text-center space-y-3 lg:items-start">
                     {footerCol.slice(4).map((item) => (
                       <a href=""><li className="text-white hover:text-brightRed">{item.text}</li></a>
                     ))}
